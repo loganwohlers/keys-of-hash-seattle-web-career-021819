@@ -6,6 +6,6 @@ class Hash
         a.push(k)
       end
     end
-  a
+    a 
   end
 end
