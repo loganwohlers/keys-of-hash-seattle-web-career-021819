@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     a=[]
     self.each do |k,v|
-      if(v.include?(arguments))
+      if(arguments.include?(v))
         a.push(k)
       end
     end
